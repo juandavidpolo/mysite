@@ -1,0 +1,139 @@
+body{
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #d4e0ee;
+    color: #003249;
+    overflow-x: hidden;
+    font-family: 'calibri';
+    transition: background-color 5s;
+}
+#projects, #about{
+    height: 100vh;
+}
+
+.dark-mode{
+    background-color: #003249;
+    color: #d4e0ee;
+}
+
+a{
+    color: #003249;
+    text-decoration: none;
+    transition: background-color 2s;
+}
+
+.dark-mode-a{
+    color: #d4e0ee;
+}
+
+p{
+    text-align: left;
+}
+
+header{
+    max-height: 10vh;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    margin: 10px;
+}
+
+.navbar-brand{
+    display: inline;
+    float: left; 
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar-list{
+    display: inline;
+    float: right;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.nav-item{
+    display: inline;
+}
+
+.nav-link{
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+}
+
+.nav-item, .navbar-brand{
+    font-style: italic;
+}
+
+.intro{
+    height: 60vh;
+    padding: 10%;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.intro > .greeting{
+    text-align: center;
+    margin: 0% 30%;
+}
+
+.main{
+    padding: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+.skills-list{
+    list-style: none;
+    text-align: center;
+}
+
+.skills-item{
+    display: inline-block;
+    font-size: 35px;
+    margin: 0px 5%;
+}
+
+.about{
+    height: 50vh;
+    margin: 0% 25%;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer{
+    margin: 0% 25%;
+}
+
+footer>div>p{
+    text-align: center;
+}
+
+.network{
+    list-style: none;
+    text-align: center;
+}
+
+.network-item{
+    display: inline-block;
+}
+
+.social{
+    font-size: 25px;
+}
